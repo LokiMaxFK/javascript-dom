@@ -11,31 +11,21 @@
 </head>
 <body>
     
-    <main class="contenedor"><!--Hola-->
+    <main class="contenedor">
 
-        <h1 id="titulo-principal">Traversing en el DOM.</h1>
-        
-        <p class="parrafo ">Aprenderemos a navegar por el DOM como unos EXPERTOS</p>
+        <h1 class="titulo seagreen" id="titulo-principal" href="#" data-color-style="red" data-id="Hola">Atributos en el DOM.</h1>
 
+        <a href="#" class="cta">Accede al curso.</a>
 
         <img src="../assets/js.svg" class="img">
 
-        <p class="parrafo small">¿Te animas a entrar al curso?</p>
-        
 
-        <form>
+        <ul class="contenedor" data-id="list">
+            <li>Obtener atributos</li>
+            <li class="selected">Eliminar Atributos</li>
+            <li>Modificar Atributos</li>
+        </ul>
 
-            <label>
-                Si
-                <input type="radio" name="seleccion" checked>
-            </label>
-
-            <label>
-                No
-                <input type="radio" name="seleccion">
-            </label>
-
-        </form>
     </main>
 
     <script src="./app.js"></script>
